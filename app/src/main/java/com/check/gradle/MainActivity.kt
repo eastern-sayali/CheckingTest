@@ -2,6 +2,7 @@ package com.check.gradle
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import com.check.gradle.ui.main.MainFragment
 
 class MainActivity : AppCompatActivity() {
@@ -15,4 +16,13 @@ class MainActivity : AppCompatActivity() {
                 .commitNow()
         }
     }
+
+    fun openFunction() {
+        Log.d("openFunction ","called ")
+    }
+}
+
+fun extensionFunction() {
+    Log.d("extensionFunction ","called ")
+
 }
